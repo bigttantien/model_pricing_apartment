@@ -29,8 +29,8 @@ app.add_middleware(
 
 # Download file from aws s3 bucket
 session = boto3.Session(
-    aws_access_key_id='AKIAUAIYXGJKKVVPD45I',
-    aws_secret_access_key='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',
+    aws_access_key_id='hidden',     # private
+    aws_secret_access_key='hidden', # private
 )
 s3 = session.resource(service_name='s3')
 bucket = s3.Bucket('htdf-model-pricing-apartment')
