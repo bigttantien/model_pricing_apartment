@@ -1,0 +1,1 @@
+# Folder to download model on s3 bucket

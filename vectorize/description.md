@@ -1,0 +1,1 @@
+# Folder to download vectorizer on s3 bucket
